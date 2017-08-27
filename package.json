@@ -1,6 +1,6 @@
 {
   "name": "yowl-spawn-session",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spawn sessions for yowl that are independent of an incoming message event",
   "main": "index.js",
   "directories": {

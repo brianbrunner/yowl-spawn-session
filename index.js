@@ -30,9 +30,9 @@ proto.init = function init(bot) {
 
   // Associate our session managers
   if (this.options.session_managers) {
-    this.session_managers = options.session_managers;
+    this.session_managers = this.options.session_managers;
   } else if (this.options.session_manager) {
-    this.session_managers = [options.session_manager];
+    this.session_managers = [this.options.session_manager];
   } else {
     this.session_managers = [];
   }
